@@ -1,0 +1,8 @@
+Started by user [8mha:////4D8OEedJKaXwPMxlQn0ikFsAN5V6pjocFGPSo8Xl83CsAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/PES2UG23CS567-backend-build
+[PES2UG23CS567-backend-build] $ /bin/sh -xe /tmp/jenkins2285782914164115515.sh
++ docker build -t backend-app backend
+/tmp/jenkins2285782914164115515.sh: 2: docker: not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

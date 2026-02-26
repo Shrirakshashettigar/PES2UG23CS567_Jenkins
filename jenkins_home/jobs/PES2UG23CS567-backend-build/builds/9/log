@@ -1,0 +1,23 @@
+Started by user [8mha:////4D8OEedJKaXwPMxlQn0ikFsAN5V6pjocFGPSo8Xl83CsAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/PES2UG23CS567-backend-build
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/PES2UG23CS567-backend-build/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Shrirakshashettigar/PES2UG23CS567_Jenkins # timeout=10
+Fetching upstream changes from https://github.com/Shrirakshashettigar/PES2UG23CS567_Jenkins
+ > git --version # timeout=10
+ > git --version # 'git version 2.47.3'
+ > git fetch --tags --force --progress -- https://github.com/Shrirakshashettigar/PES2UG23CS567_Jenkins +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 89ac8bca7e3c7136b3619667ca51b5ef480fe614 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 89ac8bca7e3c7136b3619667ca51b5ef480fe614 # timeout=10
+Commit message: "Add files via upload"
+ > git rev-list --no-walk 89ac8bca7e3c7136b3619667ca51b5ef480fe614 # timeout=10
+[PES2UG23CS567-backend-build] $ /bin/sh -xe /tmp/jenkins1270210074723214377.sh
++ docker build -t backend-app backend
+ERROR: unable to prepare context: path "backend" not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
